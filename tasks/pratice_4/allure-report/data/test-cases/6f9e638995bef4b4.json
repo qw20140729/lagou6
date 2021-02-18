@@ -1,0 +1,80 @@
+{
+  "uid" : "6f9e638995bef4b4",
+  "name" : "test_add[1-2-4]",
+  "fullName" : "test_calc.TestCalc#test_add",
+  "historyId" : "e13b03844e7db5761b2e1b0e2e2a4dea",
+  "time" : {
+    "start" : 1613645453578,
+    "stop" : 1613645453580,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 4\n +  where 3 = <bound method Calculator.add of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>>(1, 2)\n +    where <bound method Calculator.add of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>> = <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>.add\n +      where <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280> = <pratice_4.test_calc.TestCalc object at 0x00000000036C5F70>.mycalc",
+  "statusTrace" : "self = <pratice_4.test_calc.TestCalc object at 0x00000000036C5F70>, a = 1, b = 2, result = 4\n\n    @pytest.mark.parametrize('a,b,result',[(1, 2, 4)])\n    @pytest.mark.run(order=1)\n    def test_add(self, a, b, result):\n>       assert self.mycalc.add(a, b) == result\nE       assert 3 == 4\nE        +  where 3 = <bound method Calculator.add of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>>(1, 2)\nE        +    where <bound method Calculator.add of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>> = <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>.add\nE        +      where <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280> = <pratice_4.test_calc.TestCalc object at 0x00000000036C5F70>.mycalc\n\ntest_calc.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "qyanls"
+  }, {
+    "name" : "thread",
+    "value" : "3356-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  }, {
+    "name" : "result",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b371063f5349929",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 4\n +  where 3 = <bound method Calculator.add of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x000000000367E850>>(1, 2)\n +    where <bound method Calculator.add of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x000000000367E850>> = <tasks.pratice_4.pythonCode.calc.Calculator object at 0x000000000367E850>.add\n +      where <tasks.pratice_4.pythonCode.calc.Calculator object at 0x000000000367E850> = <pratice_4.test_calc.TestCalc object at 0x0000000003691760>.mycalc",
+      "time" : {
+        "start" : 1613621180042,
+        "stop" : 1613621180043,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "6f9e638995bef4b4.json",
+  "parameterValues" : [ "1", "2", "4" ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 3 == 4\n +  where 3 = <bound method Calculator.add of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>>(1, 2)\n +    where <bound method Calculator.add of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>> = <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>.add\n +      where <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280> = <pratice_4.test_calc.TestCalc object at 0x00000000036C5F70>.mycalc",
+      "children" : [ {
+        "name" : "test_add[1-2-4]",
+        "uid" : "6f9e638995bef4b4",
+        "parentUid" : "08ca2cec77c5c18b5e6cd84fa84f59a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613645453578,
+          "stop" : 1613645453580,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2", "4" ]
+      } ],
+      "uid" : "08ca2cec77c5c18b5e6cd84fa84f59a4"
+    }, {
+      "name" : "AssertionError: assert -1 == 4\n +  where -1 = <bound method Calculator.sub of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036750D0>>(1, 2)\n +    where <bound method Calculator.sub of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036750D0>> = <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036750D0>.sub\n +      where <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036750D0> = <pratice_4.test_calc.TestCalc object at 0x00000000036751C0>.mycalc",
+      "children" : [ {
+        "name" : "test_sub[1-2-4]",
+        "uid" : "d57f3115defa4a67",
+        "parentUid" : "82a19c5d79328be8319e86968f266532",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613645453744,
+          "stop" : 1613645453745,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2", "4" ]
+      } ],
+      "uid" : "82a19c5d79328be8319e86968f266532"
+    }, {
+      "name" : "AssertionError: assert 0.5 == 4\n +  where 0.5 = <bound method Calculator.div of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036A1700>>(1, 2)\n +    where <bound method Calculator.div of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036A1700>> = <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036A1700>.div\n +      where <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036A1700> = <pratice_4.test_calc.TestCalc object at 0x00000000036A1520>.mycalc",
+      "children" : [ {
+        "name" : "test_div[1-2-4]",
+        "uid" : "540d330cdff0b3fe",
+        "parentUid" : "4443e32d096f93e694f11db77f2b4cfa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613645453766,
+          "stop" : 1613645453767,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2", "4" ]
+      } ],
+      "uid" : "4443e32d096f93e694f11db77f2b4cfa"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

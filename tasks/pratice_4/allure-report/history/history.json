@@ -1,0 +1,81 @@
+{
+  "c0ee94615aa6581331600288039eb297" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e315332dfa38118",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613645453757,
+        "stop" : 1613645453757,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e13b03844e7db5761b2e1b0e2e2a4dea" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f9e638995bef4b4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3 == 4\n +  where 3 = <bound method Calculator.add of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>>(1, 2)\n +    where <bound method Calculator.add of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>> = <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280>.add\n +      where <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036C5280> = <pratice_4.test_calc.TestCalc object at 0x00000000036C5F70>.mycalc",
+      "time" : {
+        "start" : 1613645453578,
+        "stop" : 1613645453580,
+        "duration" : 2
+      }
+    } ]
+  },
+  "0319d691a441c346e058b686bb6bc5e9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d57f3115defa4a67",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert -1 == 4\n +  where -1 = <bound method Calculator.sub of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036750D0>>(1, 2)\n +    where <bound method Calculator.sub of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036750D0>> = <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036750D0>.sub\n +      where <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036750D0> = <pratice_4.test_calc.TestCalc object at 0x00000000036751C0>.mycalc",
+      "time" : {
+        "start" : 1613645453744,
+        "stop" : 1613645453745,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8a6b18d41819d27e8104cbb647a8d0f1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "540d330cdff0b3fe",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0.5 == 4\n +  where 0.5 = <bound method Calculator.div of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036A1700>>(1, 2)\n +    where <bound method Calculator.div of <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036A1700>> = <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036A1700>.div\n +      where <tasks.pratice_4.pythonCode.calc.Calculator object at 0x00000000036A1700> = <pratice_4.test_calc.TestCalc object at 0x00000000036A1520>.mycalc",
+      "time" : {
+        "start" : 1613645453766,
+        "stop" : 1613645453767,
+        "duration" : 1
+      }
+    } ]
+  }
+}
